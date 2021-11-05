@@ -6,6 +6,6 @@ nextISSTimesForMyLocation((error, ip) => {
     return;
   }
 
-  console.log('It worked! Returned IP:' , ip);
+  console.log('It worked! Returned pass by times of ISS:' , ip);
 });
 

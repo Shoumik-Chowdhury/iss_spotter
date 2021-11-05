@@ -10,7 +10,7 @@ const request = require('request');
  *     [ { risetime: <number>, duration: <number> }, ... ]
  */
 
-// gets user IP
+
 const nextISSTimesForMyLocation = (callback) => {
   request('https://api.ipify.org?format=json', (err, response, body) => {
     // error
